@@ -8,7 +8,7 @@ One player rolls two dices. Describe the measure space and the random variable f
 * B. The sum of the rolls
 * C. Take only the maximum value
 
-Solutions:
+## Solution 1.1:
 * A: Ω = {1, 2, 3, 4, 5, 6}
      Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
      X(1, 6) = (1, 6)
@@ -26,7 +26,7 @@ Describe the following events:
 * Case B: The sum is even
 * Case C: the maximum is the value of both rolls
 
-Solutions:
+## Solution 1.2:
 * A: Events = {(5, 5), (5, 6), (6, 5), (6, 6)}
    
 * B: Events = {(1, 1), (1, 3), (1, 5), (2, 2), (2, 4), ...}
@@ -39,10 +39,30 @@ One player is taking two cards from poker deck. Describe the measure space and t
 * B. The sum of the cards (figures sum 10 and ace sum 15)
 * C. The number of hearts or spades he takes.
 
+## Solution 2.1:
+* A: Ω = {Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King}
+     Structure = {(Ace, Ace), (Ace, 2), ..., (2, Ace), (2, 2), ...}
+     X(Ace, Jack) = 1
+   
+* B: Ω = {Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King}
+     Structure = {(Ace, Ace), (Ace, 2), ..., (2, Ace), (2, 2), ...}
+     X(Ace, Jack) = 25
+   
+* C: Ω = {Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King}
+     Structure = {(Ace, Ace), (Ace, 2), ..., (2, Ace), (2, 2), ...}
+     X(Ace, Jack) = 0
+
 Describe the 3 following events:
 * For case A. The number of figures is two.
 * Case B: The sum is 17.
 * Case C: The number is less than 8.
+
+## Solution 2.2:
+* A: Events = {(Jack, Jack), (Jack, Queen), (Jack, King), (Queen, Jack), (Queen, Queen), (Queen, King), (King, Jack), (King, Queen), (King, King)}
+   
+* B: Events = {(Ace, 2), (2, Ace), (Jack, 7), (7, Jack), (Queen, 7), (7, Queen), (King, 7), (7, King)}
+
+* C: Events = {(2, 2), (2, 3), (2, 4), (2, 5), (3, 2), (3, 3), (3, 4), (4, 2), (4, 3), (5, 2)}
 
 ## Challenge 3
 Two players roll a dice. Describe the measure space and the random variable for:
