@@ -127,6 +127,17 @@ Describe the measure space and the random variable for:
 ## Challenge 5
 Now we are four players. What changes for each case?
 
+## Solution 5.1:
+* Ω = {red, blue, green, black}
+
+* Structure = {(red, red, red, red), (red, red, red, blue), (red, red, red, green), (red, red, red, black), (red, red, blue, red), ...}
+   
+* A: X(green, red, red, red) = (1, 0, 0, 0)
+   
+* B: X(green, green, red, red) = (1, 1, 0, 0)
+   
+* C: X(red, red, red, red) = (0, 0, 0, 0)
+
 
 ## Challenge 6
 We have 5 balls in an urn, two black and three white. Describe the measure space and the random variable for:
