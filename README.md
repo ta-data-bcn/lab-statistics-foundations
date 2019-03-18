@@ -113,6 +113,17 @@ Describe the measure space and the random variable for:
 * Player A and B get the same points.
 * All players get 0 points.
 
+## Solution 4.1:
+* Ω = {red, blue, green, black}
+
+* Structure = {(red, red, red), (red, red, blue), (red, red, green), (red, red, black), (red, blue, red), ...}
+   
+* A: X(green, red, red) = (1, 0, 0)
+   
+* B: X(green, green, red) = (1, 1, 0)
+   
+* C: X(red, red, red) = (0, 0, 0)
+
 ## Challenge 5
 Now we are four players. What changes for each case?
 
