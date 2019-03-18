@@ -1,0 +1,103 @@
+CHALLENGE 1
+
+Random Variable:
+A: {1,2,3,4,5,6}
+B: {2,3,4,5,6,7,8,9,10,11,12}
+C: {1,2,3,4,5,6}
+
+
+Measure Space:
+{1,2,3,4,5,6}, {(1,1), (1,2), ...}
+
+Events:
+A: {6}
+B: {2,4,6,8,10,12}
+C: {1,2,3,4,5,6}
+
+
+
+CHALLENGE 2
+
+Measure Space:
+{As, 2s, 3s, 4s, 5s, 6s, 7s, 8s, 9s, Ts, Js, Qs, Ks, Ah, 2h, 3h, 4h, 5h, 6h, 7h, 8h, 9h, Th, Jh, Qh, Kh, Ac, 2c, 3c, 4c, 5c, 6c, 7c, 8c, 9c, Tc, Jc, Qc, Kc, Ad, 2d, 3d, 4d, 5d, 6d, 7d, 8d, 9d, Td, Jd, Qd, Kd}
+
+Random Variable:
+A: {Js, Qs, Ks, As, Jh, Qh, Kh, Ah, Jc, Qc, Kc, Ac, Jd, Qd, Kd, Ad}
+B: {4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,30}
+C: {0,1,2}
+
+Events:
+
+A: {(Js, Qs), (Js, Kh), (Qc, Kd), ...}
+B: {(9s, 8h), (Jd, 7c), ...}
+C: {(3s, 4h), (2h, 3h), ...}
+
+
+
+CHALLENGE 3
+
+Score for player A: Measure space: {1,2,3,4,5,6}, {(1,1), (1,2), ...}, random variable: {1,2,3,4,5,6}
+Greatest score: measure space: {1,2,3,4,5,6}, random variable: {1,2,3,4,5,6}
+Earnings of player A...: measure space: {+1 coin, -1 coin}, {(3,4), (5,2), ...}, random variable: {1,2,3,4,5,6}
+Earnings of player A...: measure space: {5,4,3,2,1,0,-1,-2,-3,-4,-5}, {(6,1), (6,2), ...}, random variable: {1,2,3,4,5,6}
+
+Events:
+A: {2}
+B: {(1,1), (1,2), (2,1)}
+C: A wins at least 4 coins: {(6,1), (6,2), (5,1)}
+   A loses more than 2 coins: {(1,4), (1,5), (1,6), (2,5), (2,6), (3,6)}
+   No one loses: {(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)}
+   
+   
+
+CHALLENGE 4
+
+Player A wins:
+{green, blue, red, black}, {(A: green, B: red, C: red), (A: green, B: red, C: black), (A: green, B: blue and red, C: black), (A: blue and green, B: blue and black, C: red), ...}
+
+Players A and B get the same points:
+{green, blue, red, black}, {(A: red and black, B: red and black, C: blue), (A: green, blue, black, B: red, C: blue), ...}
+
+All players get 0 points:
+{green, blue, red, black}, {(A: blue, B: blue, C: blue), (A: green, black, B: blue, blue, blue, C: blue, red), ...}
+
+
+CHALLENGE 5
+
+For all cases the omega will be the same, but not the structure (now we have another player picking balls). The random variable changes as well.
+    
+
+
+CHALLENGE 6
+
+The number of white balls after 3 takes, if every time we take a ball we keep it.
+measure space: omega = {white, black}, structure = {(white, black, black), (black, white, black), ...}
+random variable: {1,2,3}
+
+
+The number of white balls after 3 takes, if every time we take a ball we put it again into the urn.
+The measure space and random variable both are the same as in the previous case.
+
+
+The number of black balls after 3 takes, if every time we take a ball we keep it.
+measure space: omega = {white, black}, structure = {(white, black, black), (black, white, black), ...}
+random variable: {0,1,2}
+
+
+The number of black balls after 3 takes, if every time we take a ball we put it again into the urn.
+The measure space and random variable both are the same as in the previous case.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
