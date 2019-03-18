@@ -9,17 +9,15 @@ One player rolls two dices. Describe the measure space and the random variable f
 * C. Take only the maximum value
 
 ## Solution 1.1:
-* A: Ω = {1, 2, 3, 4, 5, 6}
-     Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
-     X(1, 6) = (1, 6)
+* Ω = {1, 2, 3, 4, 5, 6}
+
+* Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
+     
+* A: X(1, 6) = (1, 6)
    
-* B: Ω = {1, 2, 3, 4, 5, 6}
-     Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
-     X(1, 6) = 7
+* B: X(1, 6) = 7
    
-* C: Ω = {1, 2, 3, 4, 5, 6}
-     Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
-     X(1, 6) = 6
+* C: X(1, 6) = 6
 
 Describe the following events:
 * For case A: the number is greater than 5
@@ -40,17 +38,15 @@ One player is taking two cards from poker deck. Describe the measure space and t
 * C. The number of hearts or spades he takes.
 
 ## Solution 2.1:
-* A: Ω = {Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King}
-     Structure = {(Ace, Ace), (Ace, 2), ..., (2, Ace), (2, 2), ...}
-     X(Ace, Jack) = 1
+* Ω = {Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King}
+
+* Structure = {(Ace, Ace), (Ace, 2), ..., (2, Ace), (2, 2), ...}
+
+* A: X(Ace, Jack) = 1
    
-* B: Ω = {Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King}
-     Structure = {(Ace, Ace), (Ace, 2), ..., (2, Ace), (2, 2), ...}
-     X(Ace, Jack) = 25
+* B: X(Ace, Jack) = 25
    
-* C: Ω = {Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King}
-     Structure = {(Ace, Ace), (Ace, 2), ..., (2, Ace), (2, 2), ...}
-     X(Ace, Jack) = 0
+* C: X(Ace, Jack) = 0
 
 Describe the 3 following events:
 * For case A. The number of figures is two.
@@ -68,16 +64,42 @@ Describe the 3 following events:
 Two players roll a dice. Describe the measure space and the random variable for:
 * The score for player A
 * Greatest score
-* Earnings of player A with the rule “the player that has the greatest score receives a coin for the other player”
+* Earnings of player A with the rule “the player that has the greatest score receives a coin from the other player”
 * Earnings of the player A with the rule “the player that has the greatest score receives the difference between the two scores”
+
+## Solution 3.1:
+* Ω = {1, 2, 3, 4, 5, 6}
+
+* Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
+   
+* A: X(3, 1) = 3
+   
+* B: X(3, 1) = 3
+   
+* C: X(3, 1) = 1
+
+* D: X(3, 1) = 2
 
 Describe the events:
 * The score of player A is 2 (case A)
 * The greatest punctuation is <=2 (case B)
 * If the winner pays the other the difference (case D):
-  * A wins at least 4 coins.
-  * A loses more than 2 coins.
-  * No one loses.
+* A wins at least 4 coins.
+* A loses more than 2 coins.
+* No one loses.
+  
+## Solution 3.2:
+* A: Events = {(2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6)}
+   
+* B: Events = {(1, 1), (1, 2), (2, 1), (2, 2)}
+
+* C: Events = {(1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), (2, 3), ...}
+
+* D: Events = {(5, 1), (6, 1)}
+
+* E: Events = {(1, 4), (1, 5), (1, 6), (2, 5), (2, 6), (3, 6)}
+
+* F: Events = {(1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6)}
 
 ## Challenge 4
 Three players take balls. There are red, blue, green and black balls. They can take three balls at most with the following rules:
