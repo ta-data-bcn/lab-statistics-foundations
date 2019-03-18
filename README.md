@@ -145,3 +145,16 @@ We have 5 balls in an urn, two black and three white. Describe the measure space
 * The number of white balls after 3 takes, if every time we take a ball we put it again into the urn.
 * The number of black balls after 3 takes, if every time we take a ball we keep it.
 * The number of black balls after 3 takes, if every time we take a ball we put it again into the urn.
+
+## Solution 6.1:
+* Ω = {black, white}
+
+* Structure = {(black, black, white), (black, white, black), (white, white, white), ...}
+   
+* A: X(black, black, white) = 2
+   
+* B: X(black, black, white) = 3
+   
+* C: X(black, black, white) = 0
+
+* D: X(black, black, white) = 2
