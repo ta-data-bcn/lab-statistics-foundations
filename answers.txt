@@ -1,16 +1,25 @@
 CHALLENGE 1 - TWO DICES
 
+	Ω = {1, 2, 3, 4, 5, 6}
+	str = {(1, 2), (3, 6), (4, 2), ...}
+
 A. X(6, 6) = (6, 6)
 B. X(2, 2) = 4
 C. X(3, 4) = 4
 
 CHALLENGE 2 - TWO CARDS
 
+	Ω = {A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K} x 4(♥, ♣, ♠, ◆)
+	str = {(1, 2), (3, 6), (4, 2), ...}
+
 A. X(Q, K) = 2
 B. X(A, 2) = 17
-C. X(3h, 4s) = 7
+C. X(3♥, 4♠) = 7
 
 CHALLENGE 3 - DICE
+
+	Ω = {1, 2, 3, 4, 5, 6)
+	str = {(1, 2), (3, 6), (4, 2), ...}
 
 - X(Player 1, Player 2)
 
@@ -21,19 +30,25 @@ D. X(6, 2) = 4
 
 CHALLENGE 4 - BALLS
 
+	Ω = {Red, Blue, Green, Black}
+	str = {(Red, ), (Blue, Green), (Black, Red), ...}
+
 - X(Player A, Player B, Player C)
 
-A. X([GGG], [BBkBk], [R]) = 3
-B. X([GGR], [GGR], [R) = 2
-C. X([R], [R], [R]) = 0
+A. X(GBlBl, BkBlR, R) = (1, 0, 0)
+B. X(GBlR, BlGR, R) = (1, 1, 0)
+C. X(R, R, R) = (0, 0, 0)
 
 CHALLENGE 5 - 4 PLAYERS
 
-A. Player four has to have less than A [GGG]
+A. Player four has to have less than A.
 B. Player 4 has to have less points than A and B.
 C. Add a 4th player with 0 points.
 
-CHALLENGE 6 - 5 BALLS BB WWW
+CHALLENGE 6 - 5 BALLS
+
+	Ω = {White, Black}
+	str = {(Red, ), (Blue, Green), (Black, Red), ...}
 
 A. X(WWB) = 2
 B. X(WBW) = 2
