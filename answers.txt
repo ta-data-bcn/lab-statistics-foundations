@@ -1,0 +1,41 @@
+CHALLENGE 1 - TWO DICES
+
+A. X(6, 6) = (6, 6)
+B. X(2, 2) = 4
+C. X(3, 4) = 4
+
+CHALLENGE 2 - TWO CARDS
+
+A. X(Q, K) = 2
+B. X(A, 2) = 17
+C. X(3h, 4s) = 7
+
+CHALLENGE 3 - DICE
+
+- X(Player 1, Player 2)
+
+A. X(2, 4) = 2
+B. X(1, 2) = 2
+C. X(6, 5) = 1
+D. X(6, 2) = 4
+
+CHALLENGE 4 - BALLS
+
+- X(Player A, Player B, Player C)
+
+A. X([GGG], [BBkBk], [R]) = 3
+B. X([GGR], [GGR], [R) = 2
+C. X([R], [R], [R]) = 0
+
+CHALLENGE 5 - 4 PLAYERS
+
+A. Player four has to have less than A [GGG]
+B. Player 4 has to have less points than A and B.
+C. Add a 4th player with 0 points.
+
+CHALLENGE 6 - 5 BALLS BB WWW
+
+A. X(WWB) = 2
+B. X(WBW) = 2
+C. X(BWW) = 1
+D. X(BWB) = 2
