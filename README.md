@@ -9,17 +9,17 @@ One player rolls two dices. Describe the measure space and the random variable f
 * C. Take only the maximum value
 
 Solutions:
-A: Ω = {1, 2, 3, 4, 5, 6}
-   Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
-   X(1, 6) = (1, 6)
+* A: Ω = {1, 2, 3, 4, 5, 6}
+     Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
+     X(1, 6) = (1, 6)
    
-B: Ω = {1, 2, 3, 4, 5, 6}
-   Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
-   X(1, 6) = 7
+* B: Ω = {1, 2, 3, 4, 5, 6}
+     Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
+     X(1, 6) = 7
    
-B: Ω = {1, 2, 3, 4, 5, 6}
-   Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
-   X(1, 6) = 6
+* C: Ω = {1, 2, 3, 4, 5, 6}
+     Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
+     X(1, 6) = 6
 
 Describe the following events:
 * For case A: the number is greater than 5
@@ -27,11 +27,11 @@ Describe the following events:
 * Case C: the maximum is the value of both rolls
 
 Solutions:
-A: Events = {(5, 5), (5, 6), (6, 5), (6, 6)}
+* A: Events = {(5, 5), (5, 6), (6, 5), (6, 6)}
    
-B: Events = {(1, 1), (1, 3), (1, 5), (2, 2), (2, 4), ...}
+* B: Events = {(1, 1), (1, 3), (1, 5), (2, 2), (2, 4), ...}
 
-C: Events = {(1, 1), (2, 2), (3, 3), ...}
+* C: Events = {(1, 1), (2, 2), (3, 3), ...}
 
 ## Challenge 2
 One player is taking two cards from poker deck. Describe the measure space and the random variable for:
