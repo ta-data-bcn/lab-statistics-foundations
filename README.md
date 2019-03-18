@@ -95,10 +95,22 @@ Describe the events:
 
 ## Challenge 4
 Three players take balls. There are red, blue, green and black balls. They can take three balls at most with the following rules:
+
+    omega = {(R,R,R), (R,B,G), (G,G,Y)...}
+
 * If the ball is red they can’t take another ball.
+     
 * If the ball is green they earn a point and they can take another ball.
+
+     X(G,G,R) = (1, 1, 0)
+
 * If the ball is blue they can take another ball.
+
+     X(B,B,G) = (0, 0, 1)
+
 * If the ball is black one point is removed and they can’t take another ball.
+     
+     X(B) = (0)
 
 Describe the measure space and the random variable for:
 * Player A wins (no tie).
@@ -111,7 +123,21 @@ Now we are four players. What changes for each case?
 
 ## Challenge 6
 We have 5 balls in an urn, two black and three white. Describe the measure space and the random variable for:
+     
+   omega = {(b, b, w), (b, w, w), (w, w, w), ...}
+
 * The number of white balls after 3 takes, if every time we take a ball we keep it.
+
+     X(b, b, w) = 2
+
 * The number of white balls after 3 takes, if every time we take a ball we put it again into the urn.
+
+     X(b, b, w) = 3
+
 * The number of black balls after 3 takes, if every time we take a ball we keep it.
+
+     X(b, b, w) = 0
+
 * The number of black balls after 3 takes, if every time we take a ball we put it again into the urn.
+
+     X(b, b, w) = 2
