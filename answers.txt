@@ -31,11 +31,11 @@ D. X(6, 2) = 4
 CHALLENGE 4 - BALLS
 
 	Ω = {Red, Blue, Green, Black}
-	str = {(Red, ), (Blue, Green), (Black, Red), ...}
+	str = {(Red, ), (Blue, Green), (Black, Green, Red), ...}
 
 - X(Player A, Player B, Player C)
 
-A. X(GBlBl, BkBlR, R) = (1, 0, 0)
+A. X(GBlBl, Bk, R) = (1, 0, 0)
 B. X(GBlR, BlGR, R) = (1, 1, 0)
 C. X(R, R, R) = (0, 0, 0)
 
