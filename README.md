@@ -5,13 +5,36 @@
 ## Challenge 1
 One player rolls two dices. Describe the measure space and the random variable for:
 * A. The numbers he/she obtains
+
+     omega = [(1,2),(3,4),(5,6)] (36 combinations)
+     str = [((1,3), (4,2)), ...] 
+     X((1, 3))= (1, 3)
+     X((a, b))= (a, b)
+
 * B. The sum of the rolls
+
+     omega = [2,3,4,5,6,7,8,9,10,11,12]
+     str = [2,2,6,3,...] 
+     X((a)) = a
+ 
 * C. Take only the maximum value
+     
+     omega = [1,2,3,4,5,6]
+     str = [1,3,5,3,2...]
+     X((a)) = a
 
 Describe the following events:
 * For case A: the number is greater than 5
+      
+      str = (6,6)
+      
 * Case B: The sum is even
+
+      str = (2,4,6,8,10,12)
+      
 * Case C: the maximum is the value of both rolls
+
+      str = ((1,1),(2,2),(3,3),(4,4),(5,5),(6,6))
 
 ## Challenge 2
 One player is taking two cards from poker deck. Describe the measure space and the random variable for:
