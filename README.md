@@ -9,7 +9,7 @@ One player rolls two dices. Describe the measure space and the random variable f
 * C. Take only the maximum value
 
 Describe the following events:
-* For case A: the number is greater than 5
+* For case A: both numbers are greater than 5
 * Case B: The sum is even
 * Case C: the maximum is the value of both rolls
 
@@ -22,7 +22,7 @@ One player is taking two cards from poker deck. Describe the measure space and t
 Describe the 3 following events:
 * For case A. The number of figures is two.
 * Case B: The sum is 17.
-* Case C: The number is less than 8.
+* Case C: Both numbers are less than 8.
 
 ## Challenge 3
 Two players roll a dice. Describe the measure space and the random variable for:
