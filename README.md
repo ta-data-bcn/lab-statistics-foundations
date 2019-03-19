@@ -9,9 +9,9 @@ One player rolls two dices. Describe the measure space and the random variable f
 * C. Take only the maximum value
 
 ## Solution 1.1:
-* Ω = {1, 2, 3, 4, 5, 6}
+* Ω = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
 
-* Structure = {(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 1), ...}
+* Structure = {(1, 1), (1, 2), ..., (1, 4) U (1, 5), (1, 5) U (1, 6), ...}
      
 * A: X(1, 6) = (1, 6)
    
