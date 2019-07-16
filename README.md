@@ -19,11 +19,11 @@ One player rolls two dices. Describe the measurable space and the random variabl
 
 * B. The sum of the values obtained.
 
- (2),(3),(4),(5),(6),(7),(8),(9),(10),(11),(12)
+  (2),(3),(4),(5),(6),(7),(8),(9),(10),(11),(12)
 
 * C. The maximum value obtained after rolling both dices.
 
- (2),(3),(4),(5),(6)
+  (2),(3),(4),(5),(6)  
 Describe the following events:
 * Case A: Both values are greater than 5.
 
@@ -31,12 +31,12 @@ Describe the following events:
 
 * Case B: The sum of values is even.
 
- X<sup>-1</sup>(2) = {(1,1)}
- X<sup>-1</sup>(4) = {(1,3), (3,1), (2,2)}
- X<sup>-1</sup>(6) = {(1,5), (2,4), (3,3), (4,2), (5,1)}
- X<sup>-1</sup>(8) = {(2,6), (3,5), (4,4), (5,3), (6,2)}
- X<sup>-1</sup>(10) = {(4,6), (5,5), (6,4)}
- X<sup>-1</sup>(12) = {(6,6)}
+  X<sup>-1</sup>(2) = {(1,1)}  
+  X<sup>-1</sup>(4) = {(1,3), (3,1), (2,2)}  
+  X<sup>-1</sup>(6) = {(1,5), (2,4), (3,3), (4,2), (5,1)}  
+  X<sup>-1</sup>(8) = {(2,6), (3,5), (4,4), (5,3), (6,2)}  
+  X<sup>-1</sup>(10) = {(4,6), (5,5), (6,4)}  
+ X<sup>-1</sup>(12) = {(6,6)}  
 
 * Case C: The maximum is the value of both rolls.
 
