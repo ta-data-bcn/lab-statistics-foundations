@@ -12,10 +12,10 @@ You need to submit a markdown file with the solution to the following challenges
 ## Challenges
 ### Challenge 1
 One player rolls two dices. Describe the measurable space and the random variable for:
-* A. The values that the player obtains.
- (1,1),(1,2),(1,3),(1,4),(1,5),(1,6),(2,1),(2,2),(2,3),(2,4),(2,5),(2,6),
- (3,1),(3,2),(3,3),(3,4),(4,5),(3,6),(4,1),(4,2),(4,3),(4,4),(4,5),(4,6),
- (5,1),(5,2),(5,3),(5,4),(5,5),(5,6),(6,1),(6,2),(6,3),(6,4),(6,5),(6,6)
+* A. The values that the player obtains.  
+ (1,1),(1,2),(1,3),(1,4),(1,5),(1,6),(2,1),(2,2),(2,3),(2,4),(2,5),(2,6),  
+ (3,1),(3,2),(3,3),(3,4),(4,5),(3,6),(4,1),(4,2),(4,3),(4,4),(4,5),(4,6),  
+ (5,1),(5,2),(5,3),(5,4),(5,5),(5,6),(6,1),(6,2),(6,3),(6,4),(6,5),(6,6)  
 
 * B. The sum of the values obtained.
 
@@ -24,10 +24,11 @@ One player rolls two dices. Describe the measurable space and the random variabl
 * C. The maximum value obtained after rolling both dices.
 
   (2),(3),(4),(5),(6)  
+ 
 Describe the following events:
 * Case A: Both values are greater than 5.
 
- (6,6)
+  (6,6)
 
 * Case B: The sum of values is even.
 
@@ -36,16 +37,29 @@ Describe the following events:
   X<sup>-1</sup>(6) = {(1,5), (2,4), (3,3), (4,2), (5,1)}  
   X<sup>-1</sup>(8) = {(2,6), (3,5), (4,4), (5,3), (6,2)}  
   X<sup>-1</sup>(10) = {(4,6), (5,5), (6,4)}  
- X<sup>-1</sup>(12) = {(6,6)}  
+  X<sup>-1</sup>(12) = {(6,6)}  
 
-* Case C: The maximum is the value of both rolls.
-
-
+* Case C: The maximum is the value of both rolls.  
+   X<sup>-1</sup>((1,4)) = 4  
+   X<sup>-1</sup>((3,6)) = 6  
+   X<sup>-1</sup>((5,2)) = 5  
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
 * A. The number of figures he picks.
+
+  (Ace,Ace),(Ace,2),(Ace,3),...(Ace,King)  
+  (2,Ace),(2,2),(2,3),(2,4),...(2,King)  
+  (3,Ace),(3,2),(3,3),(3,4),...  
+  (4,Ace),(5,2),(5,3),(5,4),...  
+  .  
+  .  
+  ......(King,King)  
+
 * B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
+
+
+
 * C. The number of hearts or spades he picks.
 
 Describe the following events:
@@ -56,15 +70,37 @@ Describe the following events:
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
 * A. The score of player A.
+
+  (1,2,3,4,5,6)
+
 * B. The greatest score.
+
+  (6)
+
 * C. The earnings of player A if the game rules state that:  
-"The player with the greatest score gets a coin from the other player.".
+"The player with the greatest score gets a coin from the other player.".  
+  X(A player, B player)  
+  X(4, 2) = 1  
+  X(1, 5) = 0  
+  X(2, 1) = 1  
+
 * D. The earnings of player A if the game rules state that:  
-"The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
+"The player with the greatest score gets as many coins as the difference between the score of player A and player B.".   
+  X(A player, B player)  
+  X(4, 2) = 2  
+  X(1, 5) = -4  
+  X(2, 1) = 1  
+
 
 Describe the following events:
 * Case A: The score of player A is 2.
+
+
+
 * Case B: The greatest score is lower or equal than 2.
+
+
+
 * Case C: Considering the case where the winner gets as many coins as the difference between scores (D), describe: 
   * Player A wins at least 4 coins.
   * Player A loses more than 2 coins.
