@@ -12,42 +12,57 @@ You need to submit a markdown file with the solution to the following challenges
 ## Challenges
 ### Challenge 1
 One player rolls two dices. Describe the measurable space and the random variable for:
-* A. The values that the player obtains:
+* **A. The values that the player obtains:**
 
 x(z,y) = x(y,z)
 x^-1 (1,2) = {(1,1),(1,2),(1,3),...(1,6),(2,3),(2,4),..,(2,6),(3,3),..(3,6),..(4,4),..,(4,6),...(6,6)}
 
-* B. The sum of the values obtained.
+* **B. The sum of the values obtained.**
 
 x^-1(sum) = {2,....,12}
 
-* C. The maximum value obtained after rolling both dices.
+* **C. The maximum value obtained after rolling both dices.**
 
 x^-1 (5) = {(1,5),(2,5),..(5,5)}
 
 Describe the following events:
-* Case A: Both values are greater than 5.
+
+* **Case A: Both values are greater than 5.**
 
 x^-1 (z>5, y>5) = {(6,6}}
 
-* Case B: The sum of values is even.
+* **Case B: The sum of values is even.**
 
 x^-1 (sum=even) = {(1,1),(1,3),(1,5),(2,2),...,(2,6),....(6,6)}
 
-* Case C: The maximum is the value of both rolls.
+* **Case C: The maximum is the value of both rolls.**
 
 
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
-* A. The number of figures he picks.
-* B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
-* C. The number of hearts or spades he picks.
+* **A. The number of figures he picks.**
+
+♣ ♥ ♠ ♦
+
+x^-1 (♥,♦) = {(♣ ♥),(♣,♦),(♣,♠),(♣,♣), ... , (♦,♦)}
+
+* **B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.**
+
+x^-1 (sum) = {4,5,....,30}
+
+* **C. The number of hearts or spades he picks.**
+
+x^-1 (card♥ ,card♠) = {2♥, 3♥, ... ace♥, 2♠, 3♠,..., ace♠}
 
 Describe the following events:
-* Case A: The number of figures in the cards the player picked is two.
-* Case B: The sum of card values is 17.
-* Case C: The value of both cards is less than 8.
+
+* **Case A: The number of figures in the cards the player picked is two.**
+
+
+
+* **Case B: The sum of card values is 17.**
+* **Case C: The value of both cards is less than 8.**
 
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
