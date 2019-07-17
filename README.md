@@ -2,7 +2,8 @@
 
 # Lab | Statistics Foundations
 In this lab we are going to put into practice what we learned about the foundations of statistics. You won't need to use Python, just your brain and a little bit of *Markdown*. 
-
+SOLUTIONS: https://www.notion.so/Lab-Statistics-Foundations-c15f4e8ea1b948c1906d426d955feae2
+Missing part of challenge 3 and bonus.
 ## Your task
 Today you'll need to complete the challenges described below.
 
