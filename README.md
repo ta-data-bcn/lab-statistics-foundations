@@ -15,25 +15,25 @@ One player rolls two dices. Describe the measurable space and the random variabl
 * **A. The values that the player obtains:**
 
 x(z,y) = x(y,z)
-x^-1 (1,2) = {(1,1),(1,2),(1,3),...(1,6),(2,3),(2,4),..,(2,6),(3,3),..(3,6),..(4,4),..,(4,6),...(6,6)}
+X^-1 (1,2) = {(1,1),(1,2),(1,3),...(1,6),(2,3),(2,4),..,(2,6),(3,3),..(3,6),..(4,4),..,(4,6),...(6,6)}
 
 * **B. The sum of the values obtained.**
 
-x^-1(sum) = {2,....,12}
+X^-1(sum) = {2,....,12}
 
 * **C. The maximum value obtained after rolling both dices.**
 
-x^-1 (5) = {(1,5),(2,5),..(5,5)}
+X^-1 (5) = {(1,5),(2,5),..(5,5)}
 
 Describe the following events:
 
 * **Case A: Both values are greater than 5.**
 
-x^-1 (z>5, y>5) = {(6,6}}
+X^-1 (6, 6) = {(6,6}}
 
 * **Case B: The sum of values is even.**
 
-x^-1 (sum=even) = {(1,1),(1,3),(1,5),(2,2),...,(2,6),....(6,6)}
+X^-1 (sum=even) = {(1,1),(1,3),(1,5),(2,2),...,(2,6),....(6,6)}
 
 * **Case C: The maximum is the value of both rolls.**
 
@@ -45,33 +45,51 @@ One player picks two cards from a poker deck. Describe the measurable space and 
 
 ♣ ♥ ♠ ♦
 
-x^-1 (♥,♦) = {(♣ ♥),(♣,♦),(♣,♠),(♣,♣), ... , (♦,♦)}
+X^-1 (♣ ♥) = {(♣ ♥),(♣,♦),(♣,♠),(♣,♣), ... , (♦,♦)}
 
 * **B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.**
 
-x^-1 (sum) = {4,5,....,30}
+X^-1 (sum=12) = {4,5,....,30}
 
 * **C. The number of hearts or spades he picks.**
 
-x^-1 (card♥ ,card♠) = {2♥, 3♥, ... ace♥, 2♠, 3♠,..., ace♠}
+X^-1 (card♥ ,card♠) = {2♥, 3♥, ... ace♥, 2♠, 3♠,..., ace♠}
 
 Describe the following events:
 
 * **Case A: The number of figures in the cards the player picked is two.**
 
-
-
 * **Case B: The sum of card values is 17.**
+
+X^1 (17) = {(7,10),(8,9),(9,8),...(2,ace)}
+
 * **Case C: The value of both cards is less than 8.**
+
+X^-1 (<8, <8) = {(7,7), (7,6),....(2,2)}
+
 
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
-* A. The score of player A.
-* B. The greatest score.
-* C. The earnings of player A if the game rules state that:  
+* **A. The score of player A.**
+
+X^-1 (5) = {1,2,3,4,5,6}
+
+* **B. The greatest score.**
+
+
+X^-1 (1,5) = {(1,5),(2,5),..(5,5)}
+
+
+* **C. The earnings of player A if the game rules state that:  **
 "The player with the greatest score gets a coin from the other player.".
-* D. The earnings of player A if the game rules state that:  
+
+
+
+* **D. The earnings of player A if the game rules state that:**
 "The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
+
+
+
 
 Describe the following events:
 * Case A: The score of player A is 2.
