@@ -12,14 +12,31 @@ You need to submit a markdown file with the solution to the following challenges
 ## Challenges
 ### Challenge 1
 One player rolls two dices. Describe the measurable space and the random variable for:
-* A. The values that the player obtains.
+* A. The values that the player obtains:
+
+x(z,y) = x(y,z)
+x^-1 (1,2) = {(1,1),(1,2),(1,3),...(1,6),(2,3),(2,4),..,(2,6),(3,3),..(3,6),..(4,4),..,(4,6),...(6,6)}
+
 * B. The sum of the values obtained.
+
+x^-1(sum) = {2,....,12}
+
 * C. The maximum value obtained after rolling both dices.
+
+x^-1 (5) = {(1,5),(2,5),..(5,5)}
 
 Describe the following events:
 * Case A: Both values are greater than 5.
+
+x^-1 (z>5, y>5) = {(6,6}}
+
 * Case B: The sum of values is even.
+
+x^-1 (sum=even) = {(1,1),(1,3),(1,5),(2,2),...,(2,6),....(6,6)}
+
 * Case C: The maximum is the value of both rolls.
+
+
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
