@@ -45,11 +45,11 @@ One player picks two cards from a poker deck. Describe the measurable space and 
 
 ♣ ♥ ♠ ♦
 
-X^-1 (♣ ♥) = {(♣ ♥),(♣,♦),(♣,♠),(♣,♣), ... , (♦,♦)}
+X^-1 (♣,♥) = {(♣,♥),(♣,♦),(♣,♠),(♣,♣), ... , (♦,♦)}
 
 * **B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.**
 
-X^-1 (sum=12) = {4,5,....,30}
+X^-1 (card 1 + card 2) = {4,5,....,30}
 
 * **C. The number of hearts or spades he picks.**
 
@@ -70,31 +70,37 @@ X^-1 (<8, <8) = {(7,7), (7,6),....(2,2)}
 
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
+
+(player A, Player B)
+
 * **A. The score of player A.**
 
-X^-1 (5) = {1,2,3,4,5,6}
+X^-1 (score) = {1,2,3,4,5,6}
 
 * **B. The greatest score.**
 
 
-X^-1 (1,5) = {(1,5),(2,5),..(5,5)}
+X^-1 (5) = {(1,5),(2,5),..(5,5)}
 
 
 * **C. The earnings of player A if the game rules state that:  **
 "The player with the greatest score gets a coin from the other player.".
 
-
+X^-1 (1) = {(2,1),(3,2),...,(6,5)}
 
 * **D. The earnings of player A if the game rules state that:**
 "The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
 
 
-
-
 Describe the following events:
-* Case A: The score of player A is 2.
-* Case B: The greatest score is lower or equal than 2.
-* Case C: Considering the case where the winner gets as many coins as the difference between scores (D), describe: 
+
+* **Case A: The score of player A is 2.**
+
+
+X^-1 = {(1,2),(1,3),..,(2,3),(2,4),...,(3,4),(3,5),..(
+
+* **Case B: The greatest score is lower or equal than 2.**
+* **Case C: Considering the case where the winner gets as many coins as the difference between scores (D), describe:** 
   * Player A wins at least 4 coins.
   * Player A loses more than 2 coins.
   * Player A neither wins nor loses coins.
