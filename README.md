@@ -13,7 +13,7 @@ You need to submit a markdown file with the solution to the following challenges
 ### Challenge 1
 One player rolls two dices. Describe the measurable space and the random variable for:
 * A. The values that the player obtains.
-P(2), P(3), P(4), P(5), P(6), P(7), P(8), P(9), P(10), P(11), P(12). P(eachvalue) = 1/11
+P(2), P(3), P(4), P(5), P(6), P(7), P(8), P(9), P(10), P(11), P(12). P(each-value) = 1/11
 
 * B. The sum of the values obtained.
 77*(1/11)=7
@@ -24,10 +24,12 @@ P(2), P(3), P(4), P(5), P(6), P(7), P(8), P(9), P(10), P(11), P(12). P(eachvalue
 Describe the following events:
 * Case A: Both values are greater than 5.
 P(1:>5) and P(2:>5) P(10-12) = 3/11
+
 * Case B: The sum of values is even.
-P = 6/11
+P(2, 4, 6, 8, 10, 12) = 6/11
+
 * Case C: The maximum is the value of both rolls.
-1/11 * 1/11 = 1/121
+P(1:6) & P(2:6) = 1/6 * 1/6 = 1/36
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
@@ -40,10 +42,13 @@ P(2) = 4/52, P(3) = 4/52, P(4) = 4/52, P(5) = 4/52, P(6) = 4/52, P(7) = 4/52, P(
 
 
 * C. The number of hearts or spades he picks.
+P(H or S) = 1/2
 
 Describe the following events:
 * Case A: The number of figures in the cards the player picked is two.
+
 * Case B: The sum of card values is 17.
+
 * Case C: The value of both cards is less than 8.
 
 ### Challenge 3
