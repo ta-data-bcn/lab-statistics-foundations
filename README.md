@@ -21,9 +21,10 @@ One player rolls two dices. Describe the measurable space and the random variabl
 
 Describe the following events:
 * Case A: Both values are greater than 5.
-P|A| = {Pd1= 2/6 + Pd2= 2/6}
+P|A| = {d1=6 + d2=6}
 * Case B: The sum of values is even.
-P|B| = {Peven = P{2} + P{4} + P{6} ... {P12}}
+MEASURABLE SPACE = (1,1),(1,3),(1,5),(2,1),(2,3),(2,5),(3,1),(3,3),(3,5),(4,2),(4,4),(4,6),(5,1),(5,3),(5,5),(6,2),(6,4),(6,6)
+P|B| = {even = d1+d2={2} + d1+d2={4} + d1+d2={6} ... d1+d2={P12}}
 * Case C: The maximum is the value of both rolls.
 P|C| = {Pmax = P{12}}
 
