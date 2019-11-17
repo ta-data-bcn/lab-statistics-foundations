@@ -127,6 +127,8 @@ Three players take balls from a box. Inside that box there are red, blue, green 
 
 Describe the measurable space and the random variable for:
 
+**Considerer this:(player1,player2, player3)**
+
 * A. Player A wins. Do not consider ties as a win.
 
         **{(1,0,0),(1,0,-1),(1,-1,0),(1,-1,-1)}**
@@ -148,6 +150,17 @@ One player takes three balls from a box. Inside the box there are 5 balls: two o
 
 Describe the measurable space and the random variable for:
 * A. The number of white balls if every time we take a ball we keep it.
+
+                **3/5 x 2/4 x 1/3 = 1/10(10%)**
+
 * B. The number of white balls if every time we take a ball we put it back again into the box.
+
+                **(3/5)^3  = 27/125 (21.6%)**
+
 * C. The number of black balls if every time we take a ball we keep it.
+
+                **2/5 x 1/4 = 1/10(10%)**
+
 * D. The number of black balls if every time we take a ball we put it back into the box.
+
+                **(2/5)^2  = 4/25 (16%)**
