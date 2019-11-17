@@ -12,41 +12,41 @@ You need to submit a markdown file with the solution to the following challenges
 ## Challenges
 ### Challenge 1
 One player rolls two dices. Describe the measurable space and the random variable for:
-* A. The values that the player obtains.
-* B. The sum of the values obtained.
-* C. The maximum value obtained after rolling both dices.
+* A. The values that the player obtains.   ((1,1),(1,2),(2,2),(2,3),(3,3),(3,4),(4,4),(4,5),(5,5),(5,6),(6,6))
+* B. The sum of the values obtained.        (2,3,4,5,6,7,8,9,10,11,12)
+* C. The maximum value obtained after rolling both dices. (12)
 
 Describe the following events:
-* Case A: Both values are greater than 5.
-* Case B: The sum of values is even.
-* Case C: The maximum is the value of both rolls.
+* Case A: Both values are greater than 5.           For both to be greater than 5, means both = 6 = 2/36, or 1/18
+* Case B: The sum of values is even.                (5,6 ot 6,5) 6/11
+* Case C: The maximum is the value of both rolls.   Same as case A i.e. need 6 and 6.
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
-* A. The number of figures he picks.
+* A. The number of figures he picks.            2 to 10 J,Q,K,A (8 figures per suit)        32/52 and X/51
 * B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
-* C. The number of hearts or spades he picks.
+* C. The number of hearts or spades he picks.   x/26
 
 Describe the following events:
-* Case A: The number of figures in the cards the player picked is two.
-* Case B: The sum of card values is 17.
-* Case C: The value of both cards is less than 8.
+* Case A: The number of figures in the cards the player picked is two. 32/52 * 31/51 = 
+* Case B: The sum of card values is 17. (9,8) (4/52* 5*51)
+* Case C: The value of both cards is less than 8. (24/52* 23*51 )
 
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
-* A. The score of player A.
-* B. The greatest score.
+* A. The score of player A. 1/6
+* B. The greatest score. 6
 * C. The earnings of player A if the game rules state that:  
-"The player with the greatest score gets a coin from the other player.".
+"The player with the greatest score gets a coin from the other player.". one coin
 * D. The earnings of player A if the game rules state that:  
-"The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
+"The player with the greatest score gets as many coins as the difference between the score of player A and player B.". ??
 
 Describe the following events:
-* Case A: The score of player A is 2.
-* Case B: The greatest score is lower or equal than 2.
+* Case A: The score of player A is 2.       1/6
+* Case B: The greatest score is lower or equal than 2. 1/6 ot 2/6 = 2/36
 * Case C: Considering the case where the winner gets as many coins as the difference between scores (D), describe: 
-  * Player A wins at least 4 coins.
-  * Player A loses more than 2 coins.
+  * Player A wins at least 4 coins. (6,2) (6,1)
+  * Player A loses more than 2 coins. 
   * Player A neither wins nor loses coins.
 
 ## Bonus challenges
