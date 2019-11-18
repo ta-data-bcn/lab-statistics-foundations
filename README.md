@@ -16,10 +16,19 @@ One player rolls two dices. Describe the measurable space and the random variabl
 * B. The sum of the values obtained.
 * C. The maximum value obtained after rolling both dices.
 
+Solution: 
+A) Space = {(1,1),(1,2)...(6,6)} --> 12 outcomes in total
+B) Sum of values = {2,3,4,...,12}
+C) The maximum value obtained would be the resulting from getting (6,6), would be 12.
+
 Describe the following events:
 * Case A: Both values are greater than 5.
 * Case B: The sum of values is even.
 * Case C: The maximum is the value of both rolls.
+
+A) The outcomes would be P(5,5)+ P(5,6)+ P(6,5)+ P(6,6)= 4/36
+B) the outcomes would be repeated numbers (1,1) (2,2) (3,3) (4,4) (5,5) (6,6) or where the sum of the numbers = to an even number
+C) ??
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
@@ -27,10 +36,22 @@ One player picks two cards from a poker deck. Describe the measurable space and 
 * B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
 * C. The number of hearts or spades he picks.
 
+Solution:
+Poker deck has 52 cards (no replacement)
+4 Aces: value = 15x4
+3 figures x 4 cards : value = 3x4x10
+There are 12 cards of each "palo".
+
+
 Describe the following events:
 * Case A: The number of figures in the cards the player picked is two.
 * Case B: The sum of card values is 17.
 * Case C: The value of both cards is less than 8.
+
+A) 3 figures per 4 'palos' P(1/3*1/4)/52+P(1/2*1/3)/51.
+B) Apply n to k formula.
+C) It could be done by adding (2,2)...(7,1) we have to find out the probabilities and sum them.
+
 
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
@@ -41,6 +62,8 @@ Two players roll a dice. Describe the measurable space and the random variable f
 * D. The earnings of player A if the game rules state that:  
 "The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
 
+Solution: they are throwing the same dice outcomes are: {1...6}, the greatest score = 6, Earnings(player1|player1>player2), earnings player 1, +1 and earnings player 2, -1. earnings(winner)= score(winner) - score (loser), this is in money 
+
 Describe the following events:
 * Case A: The score of player A is 2.
 * Case B: The greatest score is lower or equal than 2.
@@ -48,6 +71,11 @@ Describe the following events:
   * Player A wins at least 4 coins.
   * Player A loses more than 2 coins.
   * Player A neither wins nor loses coins.
+A) P(Player A = 2) = 1/6
+B) Either player one or two will have to get a 1.
+C) 1) player A would have to get a 6 or a 5
+    2) Player B should have a 3, 4, 5, 6 and Player 1 should get 1,2,3,4 respectively.
+
 
 ## Bonus challenges
 ### Bonus Challenge 1
