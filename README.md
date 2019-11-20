@@ -13,17 +13,30 @@ You need to submit a markdown file with the solution to the following challenges
 ### Challenge 1
 One player rolls two dices. Describe the measurable space and the random variable for:
 * A. The values that the player obtains.
+Space = {(1,1), (1,2), (1,3)....(6,6)}
+Random variable = {1, 2, 3, 4, 5, 6}
 * B. The sum of the values obtained.
+Space = {(1,1), (1,2), (1,3)....(6,6)}
+Random variable = {2, 3, 4, 5, 6, 7..., 12}
 * C. The maximum value obtained after rolling both dices.
+Space = {(1,1), (1,2), (1,3)....(6,6)}
+Random variable = {12}
 
 Describe the following events:
 * Case A: Both values are greater than 5.
+(6,6)
 * Case B: The sum of values is even.
+S = {1,2,3,4,5,6}
+X = {2,4,6,8,10,12}
 * Case C: The maximum is the value of both rolls.
+S = {1,2,3,4,5,6}
+X = 6
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
 * A. The number of figures he picks.
+S = {1,2,3...,52}
+X = 1/52, 1/51
 * B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
 * C. The number of hearts or spades he picks.
 
