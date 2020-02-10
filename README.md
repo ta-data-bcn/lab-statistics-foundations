@@ -12,20 +12,24 @@ You need to submit a markdown file with the solution to the following challenges
 ## Challenges
 ### Challenge 1
 One player rolls two dices. Describe the measurable space and the random variable for:
+Ω = {(dice1, dice2): dice1, dice2 € {1,2,3,4,5,6}}
 * A. The values that the player obtains.
 two random values between 1 and 6 with result not related
-result = (dice1, dice2) dice1, dice2 € {1,2,3,4,5,6}
 * B. The sum of the values obtained.
-2/36 == 1/18
+RV = {2,3,4,5,6,7,8,9,10,11,12}
+two random values between 1 and 6 with result not related. Central values {6,7,8} have more probabilities because there are more number combinations for them
 * C. The maximum value obtained after rolling both dices.
-1/36
+RV = {12}
+the result would be two times 6 because is the maximum value and should be in both cases
 Describe the following events:
 * Case A: Both values are greater than 5.
-4/36 == 1/9
+RV = {(5,6),(6,6,),(6,5)}
+the only possibility that both numbers are greater than 5 is having two 6 and this is also the maximum combination
 * Case B: The sum of values is even.
-1/3
+RV = {(1,1),(2,2),(3,1) ... (3,5) ... (4,4) ... (6,6) ... }
+both numbers are even or both odd
 * Case C: The maximum is the value of both rolls.
-1/36 (12)
+RV = {(6,6)}
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
@@ -33,51 +37,47 @@ One player picks two cards from a poker deck. Describe the measurable space and 
 >> 3 * 4 = 12 figures
 >> 4 aces
 * A. The number of figures he picks.
-first card >> 12/52 = 6/26 = 3/13
-second card >> 12/51 or 11/51
+Ω = {(deck): deck € 4 * {ace,2,3,4,5,6,7,8,9,J,Q,K}}
+there are 3 figures 4 times so there are 12 figures over 52 cards
+the second time he picks a card, there is 1 less so spectrum would be over the result after picking up a card
 * B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
-416
+RV = sum(Ω)
 * C. The number of hearts or spades he picks.
-26/52
-26/51 or 25/51
+RV = {0,1,2 of heards; 0,1,2 of spaces}
+there are different options; he can pick up from 0 to two heart cards and from 0 to 2 of spaces. In case of both, there is just one option: 1 of each
 
 Describe the following events:
 * Case A: The number of figures in the cards the player picked is two.
-3/13 * 11/51 = 33/(13*51) = 33/663 = 11/221
+RV = {(J,J) ... (J,K) ... (K,K)}
 * Case B: The sum of card values is 17.
-?????
+RV = {(ace,2),(8,9)... }
 * Case C: The value of both cards is less than 8.
-32/52 * 31/51
+RV = {(card1:card2): card1 ,card2 € (2,3,4,5,6,7)}
 
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
 * A. The score of player A.
-1/12
+Ω = {A € {1,2,3,4,5,6}}
 * B. The greatest score.
-12
+RV = {12}
 * C. The earnings of player A if the game rules state that:  
 "The player with the greatest score gets a coin from the other player.".
-A>B >> 1/2 - 6/36 = 1/2 - 1/6 = 3/6 - 1/6 = 2/6 = 1/3
+RV = {0,1}
 * D. The earnings of player A if the game rules state that:  
 "The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
-A-B
-
+RV = {-5,-4,-3,-2,-1,0,1,2,3,4,5}
 Describe the following events:
 * Case A: The score of player A is 2.
-1/6
+RV = {(2,1),(2,2),(2,3) ... (2,6)}
 * Case B: The greatest score is lower or equal than 2.
-2/6 * 2/6 = 1/9
+RV = {(1,1),(1,2),(2,2),(2,1)}
 * Case C: Considering the case where the winner gets as many coins as the difference between scores (D), describe: 
   * Player A wins at least 4 coins.
-    - player A >= 5
-    - player B <= 2
-    2/6 * 2/6 = 4/36 = 1/9 * 2 = 2/9
+    RV = {(5,1)(6,1),(6,2)}
   * Player A loses more than 2 coins.
-    - player A < 4
-    - player B >= 5
-    2/6 * 4/6 = 1/3 * 2/3 = 2/9
+    RV = (1,6)
   * Player A neither wins nor loses coins.
-    6/36 = 1/6
+    RV = {(1,1),(2,2),(3,3),(4,4),(5,5),(6,6)}
 
 ## Bonus challenges
 ### Bonus Challenge 1
