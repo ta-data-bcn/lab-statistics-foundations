@@ -10,21 +10,49 @@ Today you'll need to complete the challenges described below.
 You need to submit a markdown file with the solution to the following challenges. You can create a new *.md* file or directly edit the *README.md* to include your solutions.
 
 ## Challenges
+
 ### Challenge 1
 One player rolls two dices. Describe the measurable space and the random variable for:
 * A. The values that the player obtains.
+
+{(d1,d2): d1,d2 ∈ {1,2,3,4,5,6}}
+
 * B. The sum of the values obtained.
+
+(d1,d2) = SUM(d1,d2)
+
 * C. The maximum value obtained after rolling both dices.
+
+(d1,d2) = MAX(d1,d2)
 
 Describe the following events:
 * Case A: Both values are greater than 5.
+
+d1 & d2 > 5
+
+RV = X(d1,d2) = (6,6)
+
 * Case B: The sum of values is even.
+
+RV = X(d1,d2) = SUM(d1,d2) % 2 = 0
+
 * Case C: The maximum is the value of both rolls.
+
+RV = X(d1,d2) = MAX(d1,d2) 
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
+
+{(c1,c2): c1,c2 ∈ {1,2,3,..., 52}}
+
 * A. The number of figures he picks.
+
+(c1,c2) = n(c1,c2) 
+
 * B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
+
+(c1,c2) = SUM(c1,c2) 
+
 * C. The number of hearts or spades he picks.
 
 Describe the following events:
@@ -34,10 +62,19 @@ Describe the following events:
 
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
+
+{(d1p1,d1p2): d1p1,d1p2 ∈ {1,2,3,4,5,6}}
+
 * A. The score of player A.
+
+{(d1p1): d1p1 ∈ {1,2,3,4,5,6}}
+
 * B. The greatest score.
+{(d1p1): d1p1 ∈ MAX {1,2,3,4,5,6}}
+
 * C. The earnings of player A if the game rules state that:  
 "The player with the greatest score gets a coin from the other player.".
+
 * D. The earnings of player A if the game rules state that:  
 "The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
 
