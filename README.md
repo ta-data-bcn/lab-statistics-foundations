@@ -12,24 +12,64 @@ You need to submit a markdown file with the solution to the following challenges
 ## Challenges
 ### Challenge 1
 One player rolls two dices. Describe the measurable space and the random variable for:
-* A. The values that the player obtains.
+* A. The values that the player obtains. 
+	
+	(1,1)(1,2)(1,3)(1,4)(1,5)(1,6) etc.
+
 * B. The sum of the values obtained.
+
+	(2,3,4,5,6,7,8,9,10,11,12)
+
 * C. The maximum value obtained after rolling both dices.
+
+	(6,6) = 12
 
 Describe the following events:
 * Case A: Both values are greater than 5.
+
+	6 x 6 = 36
+	Less than 5: (1,1)(1,2)(1,3)(1,4)(2,1)(2,2)(2,3)(3,1)(3,2)(4,1) = 10 outcomes
+	Probability = 10/36 = 5/18
+	Therefore: 1 - 5/18 = 13/18
+	
 * Case B: The sum of values is even.
+
+	(2, 4, 6, 8, 10, 12) = 3/6 = 1/2
+	
 * Case C: The maximum is the value of both rolls.
+
+	6 x 6 = 36 possible outcomes.
+	Rolling at 12 = (6,6) = 1
+	Therefore: (1/6) * 2 = 1 / 36
+
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
 * A. The number of figures he picks.
+
+	First card = 1/52
+	Second card = 1/51
+	52 * 51 = 2652 
+	
 * B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
+
+	420
+
 * C. The number of hearts or spades he picks.
+
+	Hearts: (13 / 52)
+	Spades: (13 / 51)
+	Likelihood = 13 / 204
+
 
 Describe the following events:
 * Case A: The number of figures in the cards the player picked is two.
+
+	(J,J)(J,K)(J,Q)(J,A)(K,J)...(A,A)
+
 * Case B: The sum of card values is 17.
+
+
 * Case C: The value of both cards is less than 8.
 
 ### Challenge 3
