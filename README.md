@@ -69,25 +69,61 @@ Describe the following events:
 
 * Case B: The sum of card values is 17.
 
+    10 + 7, 9 + 8, Ace + 2, etc etc.
 
 * Case C: The value of both cards is less than 8.
 
+    Result = Card 1 and Card 2 both need to be less than seven, but cumulate to 8.
+    Thus: 1 + 7, 2 + 6, 3 + 5, 4 + 4, 3 + 5, 2 + 6, 1 + 7
+
 ### Challenge 3
+
 Two players roll a dice. Describe the measurable space and the random variable for:
 * A. The score of player A.
+
+    Between 1 and 6
+
 * B. The greatest score.
-* C. The earnings of player A if the game rules state that:  
+
+    6 + 6 = 12
+
+* C. The earnings of player A if the game rules state that: 
 "The player with the greatest score gets a coin from the other player.".
+
+    Player A value needs to be higher than Player B. 
+    P(A) > P(B)
+    P(A) (1 / 2) * 5 / 6 = 5 / 12
+
 * D. The earnings of player A if the game rules state that:  
 "The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
 
+    The greatest difference is if P(A) rolls = 6, and the P(B) rolls = 1
+    so they'd get five coins. The number of coins is Player A score - Player B score
+    multiplied by 1. 
+
 Describe the following events:
 * Case A: The score of player A is 2.
+
+    1 / 6
+
 * Case B: The greatest score is lower or equal than 2.
+
+    1 / 36
+
+
 * Case C: Considering the case where the winner gets as many coins as the difference between scores (D), describe: 
   * Player A wins at least 4 coins.
+  
+  (1,5)(1,6)(1,4) = 3 / 36
+  
   * Player A loses more than 2 coins.
+  
+  16 / 36
+  
   * Player A neither wins nor loses coins.
+  
+  6 / 36
+  
 
 ## Bonus challenges
 ### Bonus Challenge 1
