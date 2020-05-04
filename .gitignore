@@ -9,6 +9,9 @@
 #   git rm -r .ipynb_checkpoints/
 #
 
+# ignore file
+answers_.md
+
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
